@@ -1,7 +1,7 @@
 import React from 'react';
 import Book1 from '../Assets/book1.jpg'
 
-const BookList = () => {
+const PicList = () => {
     return (
         <>
             <div>
@@ -71,12 +71,6 @@ const BookList = () => {
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Download +</span>   
             </div>
             </div>
-
-            
-
-            
-
-
             </div>
             </div>
 
@@ -85,4 +79,4 @@ const BookList = () => {
     );
 };
 
-export default BookList;
+export default PicList;

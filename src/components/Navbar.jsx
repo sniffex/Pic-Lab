@@ -4,7 +4,7 @@ import { DiAtom } from "react-icons/di";
 import { BsList } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 
-const Nav = () => {
+const Navbar = () => {
     let Links =[
       {name:"HOME",link:"/"},
       {name:"SERVICE",link:"/"},
@@ -62,4 +62,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Navbar
