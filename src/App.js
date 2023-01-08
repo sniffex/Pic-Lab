@@ -1,13 +1,19 @@
-import './App.css';
-import Navbar from './components/Navbar';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+import Home from './Components/Home';
+import Login from './Components/Login';
+import SignUp from './Components/SignUp';
 
-function App() {
+const App = () => {
   return (
-    <>
-    <Navbar/>
-      <div className='bg-indigo-600 w-full h-screen'></div>
-    </>
+    <Router>
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/login' element={<Login />}/>
+          <Route path='/signin' element={<SignUp />}/>
+        </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
