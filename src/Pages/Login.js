@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from '../Assets/logo.jpg';
 
 const Login = () => {
     return (
         <div class="py-36 p-5">
             <div class="flex bg-white text-gray-500 border-2 rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
                 <div class="hidden lg:block lg:w-1/2 bg-cover">
-                    <img className='rounded-l-lg' alt="welcome" />
+                    <img src={logo} className='rounded-l-lg' alt="welcome" />
                     </div>
                 <div class="w-full p-5 lg:w-1/2 px-5">
                     <div class="text-center mb-8">
                         <h2 class="text-3xl font-bold text-gray-700 text-center mb-5">Log In</h2>
-                        <p class="text-xl text-gray-600 text-center">Welcome to Cam-Library</p>
+                        <p class="text-xl text-gray-600 text-center">Welcome to PICLAB</p>
                     </div>
                     <div class="mt-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2">Email Address</label>
@@ -31,7 +31,7 @@ const Login = () => {
                     </div>
                     <div class="mt-6 flex flex-row items-center justify-center gap-2">
                         <div>Don't have an account ?</div>
-                        <Link to="/signin"><div className=' font-bold text-bold text-md text-blue-600'>Create now</div></Link>
+                        <Link to="/signup"><div className=' font-bold text-bold text-md text-blue-600'>Create now</div></Link>
                         
                     </div>
 

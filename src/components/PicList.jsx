@@ -1,79 +1,107 @@
 import React from 'react';
-import Book1 from '../Assets/book1.jpg'
+import book1 from '../Assets/book1.jpg'
+
+const products = [
+    {
+      id: 1,
+      name: 'Banana',
+      href: '/itemview',
+      imageSrc: book1,
+      imageAlt: "",
+      price: '$35',
+      color: 'Black',
+    },
+    {
+      id: 2,
+      name: 'Banana',
+      href: '#',
+      imageSrc: book1,
+      imageAlt: "",
+      price: '$35',
+      color: 'Black',
+    },
+    {
+      id: 3,
+      name: 'Banana',
+      href: '#',
+      imageSrc: book1,
+      imageAlt: "",
+      price: '$35',
+      color: 'Black',
+    },
+    {
+      id: 4,
+      name: 'Banana',
+      href: '#',
+      imageSrc: book1,
+      imageAlt: "",
+      price: '$35',
+      color: 'Black',
+    },
+    {
+      id: 5,
+      name: 'Banana',
+      href: '#',
+      imageSrc: book1,
+      imageAlt: "",
+      price: '$35',
+      color: 'Black',
+    },
+    {
+      id: 6,
+      name: 'Banana',
+      href: '#',
+      imageSrc: book1,
+      imageAlt: "",
+      price: '$35',
+      color: 'Black',
+    },
+    {
+      id: 7,
+      name: 'Banana',
+      href: '#',
+      imageSrc: book1,
+      imageAlt: "",
+      price: '$35',
+      color: 'Black',
+    },
+    {
+      id: 8,
+      name: 'Banana',
+      href: '#',
+      imageSrc: book1,
+      imageAlt: "",
+      price: '$35',
+      color: 'Black',
+    },
+    // More products...
+  ]
 
 const PicList = () => {
     return (
         <>
-            <div>
-            <div className='flex flex-wrap gap-2 justify-center items-center'>
+        <div className="bg-white">
+        <div className="mx-auto max-w-2xl py-4 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+            <h2 className="sr-only">Products</h2>
 
-            <div class="rounded w-44 h-auto overflow-hidden shadow-xl border-2">
-            <div className=' w-36 h-48 mt-3 m-auto mb-8'><img src={Book1} className=' rounded-md' alt="Book1" /></div>
-            <div class="py-3 pl-3 mt-3">
-                <div class="font-bold text-xl mb-2">Vintage Book</div>
-                <p class="text-gray-700 text-sm">
-                 
-                </p>
+            <div className="grid grid-cols-1 gap-y-50 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            {products.map((product) => (
+                <a key={product.id} href={product.href} className="group">
+                <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+                    <img
+                    src={product.imageSrc}
+                    alt={product.imageAlt}
+                    className="h-full w-full object-cover object-center group-hover:opacity-75"
+                    />
+                </div>
+                <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
+                <p className="mt-1 text-lg font-medium text-gray-900">{product.price}</p>
+                </a>
+            ))}
             </div>
-            <div class="px-6 pt-2 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Download +</span>   
-            </div>
-            </div>
-
-            <div class="rounded w-44 h-auto overflow-hidden shadow-xl border-2">
-            <div className=' w-36 h-48 mt-3 m-auto mb-8'><img src={Book1} className=' rounded-md' alt="Book1" /></div>
-            <div class="py-3 pl-3 mt-3">
-                <div class="font-bold text-xl mb-2">Vintage Book</div>
-                <p class="text-gray-700 text-sm">
-                 
-                </p>
-            </div>
-            <div class="px-6 pt-2 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Download +</span>   
-            </div>
-            </div>
-
-            <div class="rounded w-44 h-auto overflow-hidden shadow-xl border-2">
-            <div className=' w-36 h-48 mt-3 m-auto mb-8'><img src={Book1} className=' rounded-md' alt="Book1" /></div>
-            <div class="py-3 pl-3 mt-3">
-                <div class="font-bold text-xl mb-2">Vintage Book</div>
-                <p class="text-gray-700 text-sm">
-                 
-                </p>
-            </div>
-            <div class="px-6 pt-2 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Download +</span>   
-            </div>
-            </div>
-
-            <div class="rounded w-44 h-auto overflow-hidden shadow-xl border-2">
-            <div className=' w-36 h-48 mt-3 m-auto mb-8'><img src={Book1} className=' rounded-md' alt="Book1" /></div>
-            <div class="py-3 pl-3 mt-3">
-                <div class="font-bold text-xl mb-2">Vintage Book</div>
-                <p class="text-gray-700 text-sm">
-                 
-                </p>
-            </div>
-            <div class="px-6 pt-2 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Download +</span>   
-            </div>
-            </div>
-            
-            <div class="rounded w-44 h-auto overflow-hidden shadow-xl border-2">
-            <div className=' w-36 h-48 mt-3 m-auto mb-8'><img src={Book1} className=' rounded-md' alt="Book1" /></div>
-            <div class="py-3 pl-3 mt-3">
-                <div class="font-bold text-xl mb-2">Vintage Book</div>
-                <p class="text-gray-700 text-sm">
-                 
-                </p>
-            </div>
-            <div class="px-6 pt-2 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Download +</span>   
-            </div>
-            </div>
-            </div>
-            </div>
-
+        </div>
+        </div>
+        
         </>
       
     );
