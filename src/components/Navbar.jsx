@@ -21,7 +21,7 @@ const Navbar = () => {
                 <span className='text-3xl text-indigo-600 mr-1 pt-1'>
                     <DiAtom size="2rem" />
                 </span>
-                Cam-Library
+                PicLab
             </div>
             
             <div onClick={()=>setOpen(!open)}  className='text-3xl absolute right-8 top-6 cursor-pointer lg:hidden'>
