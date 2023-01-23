@@ -4928,10 +4928,10 @@
     "react-icons" "^4.6.0"
     "react-indiana-drag-scroll" "^2.2.0"
 
-"flowbite@^1", "flowbite@^1.5.5":
-  "integrity" "sha512-LWJteH6zO+6BrnerH6GEU9OFpjWmkCWi9BD3XnJdBOVevNnt7u8gW+S+4keqD5OGpHu+QU860pLzNKeNlhlf6g=="
-  "resolved" "https://registry.npmjs.org/flowbite/-/flowbite-1.5.5.tgz"
-  "version" "1.5.5"
+"flowbite@^1", "flowbite@^1.6.2":
+  "integrity" "sha512-a/hB/fyG6m+EsMWpCaKOtFZGeQef+JLPS854DdFYitct8MNPnW5YKIOBQnIroyMtn60jOeMINg/XU1yh6m4pxw=="
+  "resolved" "https://registry.npmjs.org/flowbite/-/flowbite-1.6.2.tgz"
+  "version" "1.6.2"
   dependencies:
     "@popperjs/core" "^2.9.3"
     "mini-svg-data-uri" "^1.4.3"
@@ -7988,7 +7988,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.8.1":
+"prop-types@^15.6.0", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -8113,7 +8113,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.8 || ^17.0 || ^18.0", "react-dom@^18", "react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.8", "react-dom@>=16.8.0":
+"react-dom@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.3.0", "react-dom@^16.8 || ^17.0 || ^18.0", "react-dom@^18", "react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.8", "react-dom@>=16.8.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -8247,7 +8247,15 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@*", "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^18", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.8", "react@>=16.8.0":
+"react-typed@^1.2.0":
+  "integrity" "sha512-aDsaA6zkjAFJs8285APOqE85l/kwJ0/ZJmBhARwUrza4TTttrMM5FcMCGEDdThdfUdHo/0l9WXmxp1m2ik4qdw=="
+  "resolved" "https://registry.npmjs.org/react-typed/-/react-typed-1.2.0.tgz"
+  "version" "1.2.0"
+  dependencies:
+    "prop-types" "^15.6.0"
+    "typed.js" "^2.0.6"
+
+"react@*", "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.3.0", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0", "react@^18", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.8", "react@>=16.8.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -9398,6 +9406,11 @@
   dependencies:
     "media-typer" "0.3.0"
     "mime-types" "~2.1.24"
+
+"typed.js@^2.0.6":
+  "integrity" "sha512-lyACZh1cu+vpfYY3DG/bvsGLXXbdoDDpWxmqta10IQUdMXisMXOEyl+jos+YT9uBbzK4QaKYBjT3R0kTJO0Slw=="
+  "resolved" "https://registry.npmjs.org/typed.js/-/typed.js-2.0.12.tgz"
+  "version" "2.0.12"
 
 "typedarray-to-buffer@^3.1.5":
   "integrity" "sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q=="

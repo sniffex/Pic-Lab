@@ -1,24 +1,29 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import PicList from '../components/PicList';
+import Footer from '../components/Footer';
+import Carousel from '../components/Carousel';
 
 const Home = () => {
     return (
         <>
-        <Navbar />
-        <main className=" bg-slate-100 w-full h-rotate-0">
-            
-           <div className='w-md pt-32 2xl:px-60 xl:px-0 lg:px-0 md:px-0 sm:px-0'>
-           <h1 className='mb-5 2xl:pl-20 xl:pl-32 lg:pl-16 md:pl-10 sm:pl-10 pl-10 font-bold text-2xl'>Classic books</h1>
+        <Navbar/>
+        <main>
+            <div>
+            <Carousel />
+            </div>
+
+           <div className='w-md pt-20 2xl:px-40 xl:px-0 lg:px-0 md:px-0 sm:px-0'>
+           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Product</h2>
            <PicList /> 
            </div>
 
-           <div className='w-md pt-16 2xl:px-60 xl:px-0 lg:px-0 md:px-0 sm:px-0'>
-           <h1 className='mb-5 2xl:pl-20 xl:pl-32 lg:pl-16 md:pl-10 sm:pl-10 pl-10 font-bold text-2xl'>History books</h1>
+           {/* <div className='w-md pt-16 2xl:px-40 xl:px-0 lg:px-0 md:px-0 sm:px-0'>
+           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
            <PicList /> 
-           </div>
+           </div> */}
        </main>
-
+       <Footer/>
         </>
     );
 };

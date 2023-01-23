@@ -1,10 +1,13 @@
 import React from 'react';
+import logo from '../Assets/logo.jpg';
 
 const SignUp = () => {
     return (
             <div class=" py-36 p-5">
             <div class="flex bg-white text-gray-500 rounded-lg shadow-xl border-2 overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
-                <div class="hidden lg:block lg:w-2/4 bg-cover"><img className='rounded-l-lg' alt="welcome" /></div>
+                <div class="hidden lg:block lg:w-2/4 bg-cover">
+                    <img src={logo} className='rounded-l-lg' alt="welcome" />
+                    </div>
                 <div class="w-full p-4 lg:w-1/2 px-5">
                     <div class="text-center mb-4">
                         <h2 class="text-3xl font-bold text-gray-700 text-center">Register Account</h2>
