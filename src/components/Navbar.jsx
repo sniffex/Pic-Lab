@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className=' md:flex items-center justify-between bg-white py-1 md:px-10 px-7'>
             <div href="/" className=' font-bold text-2xl cursor-pointer flex items-center  text-gray-800'>
     
-                <span className='text-3xl text-indigo-600 mr-1 pt-1'>
+                <span href="/" className='text-3xl text-indigo-600 mr-1 pt-1'>
                     <DiAtom size="2rem" />
                 </span>
                 PICLAB
