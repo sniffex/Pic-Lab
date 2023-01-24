@@ -22,7 +22,6 @@ const Carousel = () => {
         </div>
         <p className='md:text-2xl text-base font-bold text-gray-500'>From unknown to become globally famous photograhper, using their camera to shoot for payment stack.</p>
         <button className='bg-blue-600 hover:bg-blue-800 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Get Started</button>
-        <hr className='my-6 lg:mt-60 border-b border-b-black'></hr>
       </div>
     </div>
   );
