@@ -24,9 +24,9 @@ const Navbar = () => {
         <h1 className='w-full text-3xl  font-bold text-blue-600 ml-5s'>PicLab.</h1>
         <Search/>
             <ul className='p-4 uppercase'>
-                <li className='p-4 hover:text-blue-600'>Home</li>
+                <a className='no-underline text-gray-900' href='/'><li className='p-4 hover:text-blue-600'>Home</li></a>
                 <li className='p-4 hover:text-blue-600'>Service</li>
-                <li className='p-4 hover:text-blue-600'>About</li>
+                <a className='no-underline text-gray-900' href='/aboutus'><li className='p-4 hover:text-blue-600'>About</li></a>
                 <li className='p-4 hover:text-blue-600'>Cart</li>
                 <a className='no-underline text-blue' href='/login'><li className='p-4'>Log In</li></a>
             </ul>
