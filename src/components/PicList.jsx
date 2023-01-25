@@ -5,7 +5,7 @@ const products = [
     {
       id: 1,
       name: 'Banana',
-      href: '/itemview',
+      href: '/productdetail',
       imageSrc: book1,
       imageAlt: "",
       price: '$35',
