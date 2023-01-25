@@ -2,11 +2,11 @@ import React from "react";
 import setup from'../Assets/setup.png'
 
 const About = () => {
-  const info = [
-    { text: "Years experience", count: "01" },
-    { text: "Completed Projects", count: "24" },
-    { text: "Companies Work", count: "06" },
-  ];
+  // const info = [
+  //   { text: "Years experience", count: "01" },
+  //   { text: "Completed Projects", count: "24" },
+  //   { text: "Companies Work", count: "06" },
+  // ];
   return (
     // <section id="about" className="py-10 text-black">
     //   <div className="text-center mt-8">
