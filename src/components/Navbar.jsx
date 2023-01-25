@@ -15,7 +15,7 @@ const Navbar = () => {
             <a className='no-underline text-gray-900' href='/'><li className='p-4 hover:text-blue-600'>Home</li></a>
             <li className='p-4 hover:text-blue-600'>Service</li>
             <a className='no-underline text-gray-900' href='/aboutus'><li className='p-4 hover:text-blue-600'>About</li></a>
-            <li className='p-4 hover:text-blue-600'>Cart</li>
+            <a className='no-underline text-gray-900' href='/cart'><li className='p-4 hover:text-blue-600'>Cart</li></a>
             <a className='no-underline text-white hover:text-gray-200 hover:bg-blue-800 bg-blue-600 rounded w-[100px] my-6 mx-auto py-3' href='/login'><li className='px-4 py-1 '>Log In</li></a>
         </ul>
         <div onClick={handleNav} className='md:hidden block'>
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <a className='no-underline text-gray-900' href='/'><li className='p-4 hover:text-blue-600'>Home</li></a>
                 <li className='p-4 hover:text-blue-600'>Service</li>
                 <a className='no-underline text-gray-900' href='/aboutus'><li className='p-4 hover:text-blue-600'>About</li></a>
-                <li className='p-4 hover:text-blue-600'>Cart</li>
+                <a className='no-underline text-gray-900' href='/cart'><li className='p-4 hover:text-blue-600'>Cart</li></a>
                 <a className='no-underline text-blue' href='/login'><li className='p-4'>Log In</li></a>
             </ul>
         </div>  

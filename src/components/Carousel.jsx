@@ -1,5 +1,5 @@
 import React from 'react';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 
 const Carousel = () => {
   return (
@@ -12,13 +12,13 @@ const Carousel = () => {
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
             Fast, quality picture for
           </p>
-          <Typed
+          {/* <Typed
           className='md:text-4xl sm:text-3xl text-xl font-bold md:pl-4 pl-2'
             strings={['Designer', 'PhotoGrapher', 'Geek']}
             typeSpeed={140}
             backSpeed={160}
             loop
-          />
+          /> */}
         </div>
         <p className='md:text-2xl text-base font-bold text-gray-500'>From unknown to become globally famous photograhper, using their camera to shoot for payment stack.</p>
         <button className='bg-blue-600 hover:bg-blue-800 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Get Started</button>
