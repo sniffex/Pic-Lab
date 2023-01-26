@@ -5,6 +5,9 @@ import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
 import AboutUs from './Pages/AboutUs';
 import CartItem from './Pages/CartItem';
+import OverView from './components/OverView';
+import ProductDetail from './Pages/ProductDetail';
+
 
 const App = () => {
   return (
@@ -15,6 +18,8 @@ const App = () => {
           <Route path='/signup' element={<SignUp />}/>
           <Route path='/aboutus' element={<AboutUs/>}/>
           <Route path='/cart' element={<CartItem/>}/>
+          <Route path='/overview' element={<OverView/>}/>
+          <Route path='/productdetail' element={<ProductDetail/>}/>
         </Routes>
     </Router>
   );
