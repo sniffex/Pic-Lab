@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import Home from './Pages/Home';
+import HomeLogin from './Pages/HomeLogin';
 import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
 import AboutUs from './Pages/AboutUs';
@@ -20,6 +21,7 @@ const App = () => {
           <Route path='/cart' element={<CartItem/>}/>
           <Route path='/overview' element={<OverView/>}/>
           <Route path='/productdetail' element={<ProductDetail/>}/>
+          <Route path='/homelogin' element={<HomeLogin/>}/>
         </Routes>
     </Router>
   );
