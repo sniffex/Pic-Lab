@@ -19,8 +19,6 @@ const Login = () => {
     const ProceedLogin = (e) => {
         e.preventDefault();
         if(validate()){
-        /// implementation
-        // console.log('proceed');
         fetch('http://localhost:8000/user/'+username).then((res)=>{
             return res.json();
         }).then((resp)=>{
@@ -80,7 +78,7 @@ const Login = () => {
                 <form onSubmit={ProceedLogin} class="w-full p-5 lg:w-1/2 md:px-10 px-5">
                     <div class="text-center mb-8">
                         <h2 class="text-3xl font-bold text-gray-700 text-center mb-5">Log In</h2>
-                        <p class="text-xl text-gray-600 text-center">Welcome to Cam-Library</p>
+                        <p class="text-xl text-gray-600 text-center">Welcome to Pic-Lab</p>
                     </div>
                     <div class="mt-4">
                         <label class="block text-gray-700 text-md font-bold mb-2">User Name</label>
