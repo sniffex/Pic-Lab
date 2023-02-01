@@ -1,7 +1,7 @@
 import React from "react";
 import book1 from '../Assets/book1.jpg'
-import NavLog from '../components/NavLog';
 import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const products = [
   {
@@ -84,7 +84,7 @@ const CartItem = () => {
   // const {id, name, imagesrc, price, ammout} = item;
   return (
     <>
-      <NavLog />
+      <Navbar />
       <div className="bg-white">
         <div className="max-w-2xl mx-auto pt-16 pb-24 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Shopping Cart</h1>
