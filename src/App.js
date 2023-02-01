@@ -8,11 +8,12 @@ import AboutUs from './Pages/AboutUs';
 import CartItem from './Pages/CartItem';
 import OverView from './components/OverView';
 import ProductDetail from './Pages/ProductDetail';
-
+import {AuthContextProvider } from "./contexts/AuthContext"
 
 const App = () => {
   return (
     <Router>
+      <AuthContextProvider>
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/login' element={<Login />}/>
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='/productdetail' element={<ProductDetail/>}/>
           <Route path='/homelogin' element={<HomeLogin/>}/>
         </Routes>
+      </AuthContextProvider>
     </Router>
   );
 };
