@@ -17,27 +17,18 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
             <div className="space-y-3">
-              <h3 className="tracking-wide uppercase  text-gray-200">Product</h3>
+              <h3 className="tracking-wide uppercase  text-gray-200">Home</h3>
               <ul className="space-y-1">
                 <li>
-                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">Features</a>
-                </li>
-                <li>
-                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">Integrations</a>
-                </li>
-                <li>
-                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">Pricing</a>
-                </li>
-                <li>
-                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">FAQ</a>
+                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">Product</a>
                 </li>
               </ul>
             </div>
             <div className="space-y-3">
-              <h3 className="tracking-wide uppercase text-gray-200">Company</h3>
+              <h3 className="tracking-wide uppercase text-gray-200">Service</h3>
               <ul className="space-y-1">
                 <li>
-                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">Privacy</a>
+                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">Pricing</a>
                 </li>
                 <li>
                   <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">Terms of Service</a>
@@ -45,21 +36,15 @@ const Footer = () => {
               </ul> 
             </div>
             <div className="space-y-3">
-              <h3 className="uppercase text-gray-200">Developers</h3>
+              <h3 className="uppercase text-gray-200">About us</h3>
               <ul className="space-y-1">
                 <li>
-                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">Public API</a>
-                </li>
-                <li>
-                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">Documentation</a>
-                </li>
-                <li>
-                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">Guides</a>
+                  <a className="text-gray-100 no-underline" rel="noopener noreferrer" href="/">What is PicLab</a>
                 </li>
               </ul>
             </div>
             <div className="space-y-3">
-              <div className="uppercase text-gray-200">Social media</div>
+              <div className="uppercase text-gray-200">Cart</div>
               <div className="flex justify-start space-x-3">
                 <a rel="noopener noreferrer" href="/" title="Facebook" className="flex items-center p-1">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" className="w-5 h-5 fill-current">
