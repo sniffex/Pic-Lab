@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Link, useNavigate} from 'react-router-dom';
-import logo from '../Assets/logo.jpg';
+import login from '../Assets/login.jpg';
 import { toast } from 'react-toastify';
 import { Icon } from 'react-icons-kit';
 import { eyeOff } from 'react-icons-kit/feather/eyeOff';
@@ -61,7 +61,7 @@ const Login = () => {
         <>
         <div class="py-36 p-5">
             <div class="flex bg-white text-gray-500 border-2 rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
-                <div class="hidden lg:block lg:w-1/2 bg-cover"><img src={logo} className='rounded-l-lg' alt="welcome" /></div>
+                <div class="hidden lg:block lg:w-1/2 bg-cover "><img src={login} className='rounded-l-lg h-full w-full' alt="welcome" /></div>
                 <form onSubmit={handleSubmit} class="w-full p-5 lg:w-1/2 md:px-10 px-5">
                     <div class="text-center mb-8">
                         <h2 class="text-3xl font-bold text-gray-700 text-center mb-5">Log In</h2>

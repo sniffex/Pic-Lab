@@ -21,7 +21,7 @@ const Navbar = () => {
       } catch (e) {
         console.log(e.message);
       }
-      localStorage.clear(null);
+      localStorage.clear();
     };
 
   return (
@@ -35,7 +35,7 @@ const Navbar = () => {
             <a className='no-underline text-gray-900' href='/aboutus'><li className='p-4 hover:text-blue-600'>About</li></a>
             <a className='no-underline text-gray-900' href='/cart'><li className='p-4 hover:text-blue-600'>Cart</li></a>
             <a className='no-underline text-white hover:text-gray-200 hover:bg-blue-800 bg-blue-600 rounded w-[100px] my-6 mx-auto py-3 onClick={handleLogout}' href='/login' >
-            <li className='px-3 py-1 '>Log out</li></a>
+            <li className='px-3 py-1 '>Log in</li></a>
         </ul> 
 
         <div onClick={handleNav} className='md:hidden block'>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 <li className='p-4 hover:text-blue-600'>Service</li>
                 <a className='no-underline text-gray-900' href='/aboutus'><li className='p-4 hover:text-blue-600'>About</li></a>
                 <a className='no-underline text-gray-900' href='/cart'><li className='p-4 hover:text-blue-600'>Cart</li></a>
-                <a className='no-underline text-blue' onClick={handleLogout}><li className='p-4 '>Log Out</li></a>
+                <a className='no-underline text-blue' onClick={handleLogout}><li className='p-4 '>Log in</li></a>
             </ul>
         </div>  
         </div>
